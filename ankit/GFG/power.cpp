@@ -1,5 +1,5 @@
 # include<bits/stdc++.h>
-
+# include<iostream>
 using namespace std;
 
 float power(float x,int y)
@@ -21,7 +21,8 @@ float power(float x,int y)
 
 int main()
 {
-	float x; int y; cin>>x>>y;
+	// see i have made changes
+float x; int y; cin>>x>>y;
 	cout<<x<<" raised to power to "<<y<<" is \n"<<power(x,y);
 	return 0;
 }
